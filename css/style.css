@@ -147,6 +147,17 @@ cite {
     align-items: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    padding-left: 55em;
+}
+
+.quote-grid {
+    display: flex;
+    align-items: center;
+}
+
+.quote-grid :nth-child(1) {
+    display: flex;
+    display: inline-flex;
 }
 
 @media (min-width: 768px) {
